@@ -1,0 +1,11 @@
+name: .NET
+
+on: [push]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Welcome message
+      run: echo "Hello" 
